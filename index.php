@@ -120,7 +120,7 @@ html {
 <body>
 
 <div class="header" style="background-image: url(images/car_b.jpg); background-size: cover">
-  <h1 style="text-shadow: 2px 2px black,-2px -2px black">Car Information System</h1>
+  <h1 style="text-shadow: 2px 2px black,-2px -2px black">Car info System</h1>
 </div>
 
 <div class="row">
@@ -142,7 +142,7 @@ html {
   <div class="col-3 col-s-12">
     <div class="aside">
       <h2>About</h2>
-      <p>Get information about your dream car here.</p><br>
+      <p>Buy your dream car.</p><br>
       <p>Compare cars of different brands.</p><br>
       
       <p>Choose the best car for you.</p><br>
