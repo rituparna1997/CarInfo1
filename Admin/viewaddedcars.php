@@ -211,7 +211,7 @@ html {
   <td><?php echo $transmission ?></td>
   <td><?php echo $fueltype ?></td>
   <td><?php echo $seating ?></td>
-  <td><?php echo "<img src='uploads/".$photo."' height='100px' width='100px'>"?></td>
+  <td><?php echo "<img src='.uploads/".$photo."' height='100px' width='100px'>"?></td>
   <td><?php echo $additional ?></td>
   <td><a href="edit.php?cid=<?php echo $cid ?>">Edit</a>-</td>
   <td><a href="delete.php?cid=<?php echo $cid ?>">Delete</a></td>
