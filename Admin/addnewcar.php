@@ -26,7 +26,7 @@ if(isset($_POST['sub'])){
   $seating = mysqli_real_escape_string($con,$_POST['seating']);
   $additional = mysqli_real_escape_string($con,$_POST['additional']);
   $image = $_FILES['image']['name'];
-  $target = "uploads/".basename($image);
+  $target = ".uploads/".basename($image);
   $sql = "insert into cars(cname,cbrand,variants,price,engine,transmission,fueltype,seatingcapacity,aditionaldetails,photo) values('$cname','$brand','$variants','$price','$engine','$transmission','$fuel','$seating','$additional','$image')";
   mysqli_query($con,$sql);
   if(move_uploaded_file($_FILES['image']['tmp_name'], $target)){
