@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con = mysqli_connect("http://54.90.116.248","root","Iam@1234","carinfo") or die("connection was not created");
+$con = mysqli_connect("localhost","root","1234","carinfo") or die("connection was not created");
 if (isset($_REQUEST['submit']))
 {
 	$username=mysqli_real_escape_string($con,$_REQUEST['uname']);

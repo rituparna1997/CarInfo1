@@ -1,7 +1,7 @@
 <?php
 session_start();
 $msg="";
-$con = mysqli_connect("http://54.90.116.248/","root","Iam@1234","carinfo") or die("connection was not created");
+$con = mysqli_connect("localhost","root","1234","carinfo") or die("connection was not created");
 if(!isset($_SESSION['username'])){
     //$_SESSION['username'];
    header("location:../index.php");
